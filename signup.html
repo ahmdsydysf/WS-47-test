@@ -1,0 +1,639 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/default_icon.png" type="image/x-icon">
+    <title>Sign in/up Form</title>
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+	<div class="firstNav">
+        <div class="container">
+            <div class="left">
+            
+                <i class="fas fa-bullhorn"></i>
+                <span class="slogan">It's all about your needs. Don't worry, we have it</span>
+            
+            </div>
+            <div class="right">
+                <ul class="social_links">
+                    <li>
+                        <a class="first_anchor" href="https://www.apple.com/store" target="_blank"><i class="fab fa-app-store-ios"></i><div class="firstSpan">App Store</div></a>
+                    </li>
+                    <li>
+                        <a class="first_anchor" href="https://play.google.com/store" target="_blank"><i class="fab fa-google-play"></i><div class="firstSpan first_google">Google App</div></a>
+                    </li>
+                    <li>
+                        <b>
+                        <i class="fas fa-caret-down fa-2x"></i>
+                        <div class="firstSpan"><i class="fas fa-coins fa-2x"></i>
+                        </div>
+                        </b>
+                        <div class="dropdown-content">
+                            <a class="currency" href="#">EGP <img id="currency_id" src="images/egypt-currency03.jpg" alt="EGP Currency" width="25px"></a>
+                            <a class="currency" href="#">Saudi Riyal <img id="currency_id" src="images/sr-currency01.jpg" alt="Saudi Currency" width="25px"></a>
+                            <a class="currency" href="#">UAE Dirham <img id="currency_id" src="images/uae-dirham03.jpg" alt="UAE Currency" width="25px"></a>
+                            <a class="currency" href="#">USD <img id="currency_id" src="images/USD0022.jpg" alt="USD Currency" width="25px"></a>
+                            <a class="currency" href="#">EURO <img id="currency_id" src="images/pexels-4386158.jpg" alt="EURO Currency" width="25px"></a>
+                        </div>
+                    </li> 
+                    <li>
+                        <b><i class="fas fa-caret-down fa-2x"></i><div class="firstSpan"><i class="fas fa-globe fa-2x"></i>
+                        </div></b>
+                        <div class="dropdown-content">
+                            <a class="country" href="#">Egypt <img id="country_flag" src="images/Egypt Flag.jpg" alt="Egypt Flag" width="25px"></a></a>
+                            <a class="country" href="#">Saudi Arabia <img id="country_flag" src="images/sa flag.jpg" alt="SA Flag" width="25px"></a>
+                            <a class="country" href="#">UAE <img id="country_flag" src="images/UAE Flag.jpg" alt="UAE Flag" width="25px"></a>
+                            <a class="country" href="#">USA <img id="country_flag" src="images/usa flag.jpg" alt="USA Flag" width="25px"></a>
+                            <a class="country" href="#">UK <img id="country_flag" src="images/UK Flag.jpg" alt="UK Flag" width="25px"></a>
+                        </div>
+                    </li>
+                    <li>
+                    <b><i class="fas fa-caret-down fa-2x"></i><div class="firstSpan"><i class="fas fa-language fa-2x"></i></div></b>
+                        <div class="dropdown-content">
+                            <a class="language" href="#">English <img id="language_id" src="images/english-01.jpg" alt="English Language" width="25px"></a>
+                            <a class="language" href="#">Arabic <img id="language_id" src="images/arabic-language02.jpg" alt="Arabic Language" width="25px"></a>
+                            <a class="language" href="#">Frensh <img id="language_id" src="images/frensh_language02.jpg" alt="Frensh Language" width="25px"></a>
+                            <a class="language" href="#">Germany <img id="language_id" src="images/germany_language02.jpg" alt="Germany Language" width="25px"></a>
+                        </div>
+                    </li>    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav id="secondNav">
+        <div class="container">
+            <div class="left">
+                <img id="company_logo" src="images/logo.png" alt="Shopping Mall Logo" width="110px">
+                <form class="search" action="">
+                    <div id="buttonSearch">
+                        <span id="text_selection" class="text_selection">Product</span><i class="fas fa-chevron-down"></i>
+                        <div class="dropDownTwo" id="dropdown_three">
+                            <a id="text_contentOne" class="language" href="#">Product<img id="product_id" src="images/Products Two.jpg" alt="Product Image" width="45px"></a>
+                            <a id="text_contentTwo" class="language" href="#">Supplier<img id="supplier_id" src="images/Supplier Two.jpg" alt="Supplier Image" width="45px"></a>
+                            <a id="text_contentThree" class="language" href="#">All<img id="all_id" src="images/All.jpg" alt="All Image" width="45px"></a>
+                        </div>
+                    </div>
+                    <div class="input_icon">
+                        <input id="inputSearch" type="text" placeholder="Enter Your Keyword" name="search"> <i class="fa fa-search search_icon"></i>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <ul class="main_menu">
+                    <li class="run_privacy">
+                        <a id="a_parent"> 
+                            <div class="wrapp">
+                                <span class="iconOne"><img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/50/000000/external-man-love-vitaliy-gorbachev-flat-vitaly-gorbachev.png" width="30px"/></span>
+                                <span id="account_textOne" class="colorIcons_text">Account</span>
+                            </div>
+                        </a>
+                        <div class="secondry_ul">
+                            <a href="signup.html" class="secondry_liOne" href=""><i class="fa-solid fa-right-to-bracket"></i>Sign-In</a>
+                            <a href="signup.html" class="secondry_liTwo" href=""><i class="fa-solid fa-user-plus"></i>Sign-Up</a>
+                            <a href="tracking.html#manageAccount" class="secondry_liThree" href=""><i class="fa-solid fa-list-check"></i>Manage Account</a>
+                        </div>
+                    </li>
+                    <li class="run_returns">
+                        <a id="b_parent"> 
+                            <div class="wrapp">
+                                <span class="iconOne"><img src="images/icons/return-box.png" width="30px"/></span>
+                                <span class="colorIcons_text">Returns</span>
+                            </div>
+                        </a>
+                        <div class="secondry_ulTwo">
+                            <a href="tracking.html#ordersTracking" class="secondry_liOne" href=""><i class="fa-solid fa-truck"></i>Orders Tracking</a>
+                        </div>
+                    </li>
+                    <li class="run_cart">
+                        <a id="c_parent"> 
+                            <div class="wrapp_three">
+                                <span class="iconThree"><img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-shopping-cart-sales-vitaliy-gorbachev-flat-vitaly-gorbachev.png" width="30px"/><div id="basket_counter" style="display: none;">0</div></span>
+                                <span class="colorIcons_text">Cart</span>
+                            </div>
+                        </a>
+                        <div class="secondry_ulThree">
+                            <a class="secondry_liOne" href="shopping-cart.html"><i class="fa-solid fa-cart-plus"></i>Shopping Cart</a>
+                            <a class="secondry_liTwo" href="tracking.html#ordersTracking"><i class="fa-solid fa-truck"></i>Orders Tracking</a>
+                            <a class="secondry_liThree" href="tracking.html#favList"><i class="fa-solid fa-bookmark"></i>favourite Lists</a>
+                            <a class="secondry_liThree" href="tracking.html#notification"><i class="fa-solid fa-check-double"></i>Notifications</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <nav id="thirdNav">
+        <div class="container">
+            <div class="right_third">
+                <div id="categories">
+                    <span id="span_categories">CATEGORIES</span>
+                    <i class="fas fa-bars"></i>
+                    <div class="dropdown_three">
+                        <div class="internal_containerOne">
+                            <div class="box_one">
+                                <div class="main_circle">
+                                </div>
+                                <h4 class="sub_title">
+                                    Men’s Clothes
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                        <li><a href="shirts.html">Shirts</a></li>
+                                        <li><a href="shirts.html">T-Shirts</a></li>
+                                        <li><a href="shirts.html">Hoodies</a></li>
+                                        <li>Sweatshirts</li>
+                                        <li>Pants</li>
+                                        <li>Jakets</li>
+                                        <li>Innerwear</li>
+                                        <li>Socks</li>
+                                        <li>Scarves</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box_two">
+                                <div class="main_circletwo">
+                                </div>
+                                <h4 class="sub_title">
+                                    Women’s Clothes
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                    <li><a href="categories.html">Dresses</a></li>
+                                    <li><a href="categories.html">Pullovers</a></li>
+                                    <li>Shirts</li>
+                                    <li>T-Shirts</li>
+                                    <li>Hoodies</li>
+                                    <li>Sweatshirts</li>
+                                    <li>Pants</li>
+                                    <li>Jakets</li>
+                                    <li>Scarves & Wraps</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box_three">
+                                <div class="main_circlethree">
+                                </div>
+                                <h4 class="sub_title">
+                                    Footwear
+                                </h4>
+                                <div class="box_p">
+                                    <ul> 
+                                        <li>Shoes</li>
+                                        <li>Sneakers</li>
+                                        <li>Boots</li>
+                                        <li>Classic</li>
+                                        <li>Sandals</li>
+                                        <li>Slipper</li>
+                                        <li>Safety</li>
+                                        <li>Shoe Care</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box_four">
+                                <div class="main_circlefour">
+                                  
+                                </div>
+                                <h4 class="sub_title">
+                                    Accessories
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                        <li>Sunglasses</li>
+                                        <li>Watches</li>
+                                        <li>Bags & Handbags</li>
+                                        <li>Gloves</li>
+                                        <li>Wallets</li>
+                                        <li>Ice Caps</li>
+                                        <li>Hats</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box_five">
+                                <div class="main_circlefive">
+                                    
+                                </div>
+                                <h4 class="sub_title">
+                                    Baby Products
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                        <li>Bath</li>
+                                        <li>Skin Care</li>
+                                        <li>Baby Feeding</li>
+                                        <li>Baby Safety</li>
+                                        <li>Gear</li>
+                                        <li>Diapering</li>
+                                        <li>Nursery</li>
+                                        <li>Toys & Games</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="internal_containerTwo">
+                            <div class="box_six">
+                                <div class="main_circlesix">
+                                    
+                                </div>
+                                <h4 class="sub_title">
+                                    Home
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                        <li>Furnature</li>
+                                    <li>Houseware</li>
+                                    <li>Lighting</li>
+                                    <li>Decoration</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="box_seven">
+                                <div class="main_circleseven">
+                                   
+                                </div>
+                                <h4 class="sub_title">
+                                    Phones & Accessories
+                                </h4>
+                                <div class="box_p">
+                                    <ul><li>Smart Mobile Phones</li>
+                                        <li>Cell Phones</li>
+                                        <li>Tablets</li>
+                                        <li>Phone Accessories</li></ul>
+                                    
+                                </div>
+                            </div>
+                            <div class="box_eight">
+                                <div class="main_circleeight">
+                                   
+                                </div>
+                                <h4 class="sub_title">
+                                    Computers & Accessories
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                        <li>Laptops</li>
+                                        <li>PCs</li>
+                                        <li>Data Storage</li>
+                                        <li>Computer Accessories</li>
+                                        <li>Network Products</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div class="box_nine">
+                                <div class="main_circlenine">
+                                   
+                                </div>
+                                <h4 class="sub_title">
+                                    Electronic
+                                </h4>
+                                <div class="box_p">
+                                    <ul>
+                                        <li>Home Theater</li>
+                                    <li>LED & LCD TV's</li>
+                                    <li>Washing Machines</li>
+                                    <li>Refrigerators</li>
+                                    <li>Burners</li>
+                                    <li>Speakers</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="menu_two">
+                    <li class="home">HOME</li>
+                    <li class="shop"><a href="stores.html" class="main_store">STORES</a></li>
+                    <li class="women">WOMEN <i class="fas fa-caret-down"></i>
+                        <div class="dropdown_four">
+                            <div class="dropdown_left">
+                                <ul>
+                                    <div class="row_one">
+                                        <li><a href="categories.html">Dresses</a></li>
+                                        <div class="women_dresses"></div>
+                                    </div>
+                                    <div class="row_two">
+                                        <li><a href="categories.html">Pullovers</a></li>
+                                        <div class="women_pullovers"></div>
+                                    </div>
+                                    <div class="row_three">
+                                        <li><a href="categories.html">Shirts</a></li>
+                                        <div class="women_shirts"></div>
+                                    </div>
+                                    <div class="row_four">
+                                        <li>T-Shirts</li>
+                                        <div class="women_tshirts"></div>
+                                    </div>
+                                    <div class="row_five">
+                                        <li>Hoodies</li>
+                                        <div class="women_hoodies"></div>
+                                    </div>
+                                    <div class="row_six">
+                                        <li>Sweatshirts</li>
+                                        <div class="women_sweatshirts"></div>
+                                    </div>
+                                    <div class="row_seven">
+                                        <li>Pants</li>
+                                        <div class="women_pants"></div>
+                                    </div>
+                                    <div class="row_eight">
+                                        <li>Jakets</li>
+                                        <div class="women_jakets"></div>
+                                    </div>
+                                    <div class="row_nine">
+                                        <li>Scarves &amp; Wraps</li>
+                                        <div class="women_scarves"></div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="men">MEN <i class="fas fa-caret-down"></i>
+                        <div class="dropdown_five">
+                            <div class="dropdown_left">
+                                <ul>
+                                    <div class="row_one">
+                                        <li><a href="shirts.html">Shirts</a></li>
+                                        <div class="men_shirts"></div>
+                                    </div>
+                                    <div class="row_two">
+                                        <li><a href="shirts.html">T-Shirts</a></li>
+                                        <div class="men_tshirts"></div>
+                                    </div>
+                                    <div class="row_three">
+                                        <li><a href="shirts.html">Hoodies</a></li>
+                                        <div class="men_hoodies"></div>
+                                    </div>
+                                    <div class="row_four">
+                                        <li>Sweatshirts</li>
+                                        <div class="men_sweatshirts"></div>
+                                    </div>
+                                    <div class="row_five">
+                                        <li>pants</li>
+                                        <div class="men_pants"></div>
+                                    </div>
+                                    <div class="row_six">
+                                        <li>Jakets</li>
+                                        <div class="men_jakets"></div>
+                                    </div>
+                                    <div class="row_seven">
+                                        <li>Innerwear</li>
+                                        <div class="men_innerwear"></div>
+                                    </div>
+                                    <div class="row_eight">
+                                        <li>Socks</li>
+                                        <div class="men_socks"></div>
+                                    </div>
+                                    <div class="row_nine">
+                                        <li>Scarves</li>
+                                        <div class="men_scarves"></div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="sales">DINNING</li>
+                    <li class="pages">ENTERTAINMENT</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="login_path">
+        <ul class="ulLogin_path">
+            <li class="under_line"><a href="index.html">HOME</a></li>
+            <li><i class="arrow fas fa-chevron-right"></i></li>
+            <li>ACCOUNT REGISTRATION</li>
+        </ul>
+    </div>
+	<div class="mainlogin_container">
+        
+		<h2 class="signup_mainTitle">Creat an account or sign-in if you already have one</h2>
+		<div class="login_container" id="login_container">
+			<div class="form-container sign-up-container">
+				<form class="login_form" action="#">
+					<h1 class="login_hone">Create Account</h1>
+					<input class="text_input" type="text" placeholder="Name" />
+					<input class="email_input" type="email" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<button class="button_login">Sign Up</button>
+				</form>
+                <div class="login_horLine">
+                    <div class="hor_lineTenth"></div>
+                    <div class="or">Or</div>
+                    <div class="hor_lineEleven"></div>
+                </div>
+                <div class="login_socialMedia">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <span class="login_span">Login with social media</span>
+                </div>
+			</div>
+			<div class="form-container sign-in-container">
+				<form class="login_form" action="#">
+					<h1 class="login_hone">Sign in</h1>
+					<input class="email_input" type="email" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<div class="remember_info">
+						<label class="first_checkbox">
+							<input type="checkbox">
+							<span class="checkmark"></span>
+                            Keep me signed in
+						</label>
+						<a href="#">Forgot your password?</a>
+					</div>
+					<button class="button_login">Sign In</button>
+				</form>
+                <div class="login_horLine">
+                    <div class="hor_lineTenth"></div>
+                    <div class="or">Or</div>
+                    <div class="hor_lineEleven"></div>
+                </div>
+                <div class="login_socialMedia">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <span class="login_span">Login with social media</span>
+                </div>
+			</div>
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1 class="login_htwo">Welcome Back!</h1>
+						<p class="sign_in">To keep connected with us please login with your personal info</p>
+						<button class="button_login ghost" id="signIn">Sign In</button>
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1 class="login_htwo">Hello, Valuable Customer!</h1>
+						<p class="sign_up">Please create an account to check out faster in the future and receive emails about your orders, new products, events and special offers!</p>
+						<button class="button_login ghost" id="signUp">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="smallProducts_container">
+        <div class="main_loginProductsHead">
+            <div class="related select noselect">Suggested Products
+            </div>
+            <div class="hor_linetwelve"></div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+        <div class="flip flip_products">
+            <div class="card">
+                <div class="flcard">
+                    <div class="card_image imgOne"></div>
+                    <small class="small_a">Dress Shirt<br><small class="small_b">EGP 350</small></small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <button id="scrollBtn" class="btn top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="18px" height="18px">
+              <path d="M0 0h24v24H0V0z" fill="none"></path>
+              <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"></path>
+            </svg>
+          </button>
+        <div class="footer_contents">
+            <div class="social_logo">
+                <div class="mall_logo">
+                    <div class="mall_logoImg"><img id="company_logoTwo" src="images/logo.png" alt="Shopping Mall Logo" width="150px"></div>
+                    <div class="mall_logoDesc">In VOX Mall, Up to 50% sale of Electronics, Fashion & everything else. Find details here. Discount. Deals. Deal of the day. Your favourite Brands. Awesome Deals. List of stores on sale. Offers. Sale. Discount Offers.</div>
+                </div>
+                <div class="social_media"><div class="social-icons">
+                    <div class="social-icons-image">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="images/icons/instagram_PNG18.png" alt="Instagram Icon">
+                        </a>
+                    </div>
+                    <div class="social-icons-image">
+                        <a href="http://www.whatsapp.com/" target="_blank">
+                            <img src="images/icons/whatsapp02.png" alt="whatsapp Icon">
+                        </a>
+                    </div>
+                    <div class="social-icons-image">
+                        
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="https://www.facebook.com/images/fb_icon_325x325.png" alt="Facebook Icon">
+                        </a>
+                    </div>
+                    <div class="social-icons-image">
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="https://jonbennallick.co.uk/wp-content/uploads/2012/11/Twitter-Logo-Icon-by-Jon-Bennallick-02-300x300.png" alt="Twitter Icon">
+                        </a>
+                        
+                    </div>
+                    <div class="social-icons-image">
+                        <a href="https://www.linkedin.com" target="_blank">
+                            <img src="images/icons/linkedIn_PNG29.png" alt="Linkedin Icon">
+                        </a>
+                    </div>
+                </div></div>
+            </div>
+            <div class="stores_column">
+                <div class="stores_directory">
+                    <a class="stores_anchor" href="http://www.digitalforcemea.com" target="_blank">Stores Directory</a>
+                    <span class="stores_head">Looking for a specific store? Search our directory page.</span>
+                </div>
+                <div class="mall_address">
+                    <div class="contacts_mall">Contacts Details</div>
+                    <ul class="bullet">
+                        <li class="first_icons"><i class="fas fa-map map_icon"></i> Address:<span> 22 Heliopolis St, Cairo; Egypt</span></li>
+                        <li class="second_icons"><i class="fas fa-phone-alt phone_icon"></i> Phone:<span> +2 26220407 - +2 26220408</span></li>
+                        <li class="third_icons"><i class="fas fa-envelope envelope_icon"></i> Email:<span> info@digitalforcemea.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="customer_services">
+                <div class="customer_head">
+                    <a class="customer_anchor" href="https://www.ibm.com" target="_blank">Cutomer Services</a>
+                </div>
+                <div class="footer_aboutUs">ABOUT US</div>
+                <div class="shipping_rates">Shipping Rates & Polices</div>
+                <div class="returns_replacements">Returns & Replacements</div>
+                <div class="faq">FAQ</div>
+            </div>
+            <div class="stay_connected">
+                <div class="stay_connectedHead">SUBSCRIBE IN OUR NEWSLETTER</div>
+                <div class="stay_connectedText">
+                    Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.
+                </div>
+                <input type="email" placeholder= "EMAIL" name="custom_email" id="custom_email" class="custom_email">
+                <button class="email_submit">Submit</button>
+            </div>
+        </div>
+        <h6>Copyrights© 2022 VOX Mall</h6>
+    </footer>
+	
+        
+    <script>
+        const signUpButton = document.getElementById('signUp');
+        const signInButton = document.getElementById('signIn');
+        const loginContainer = document.getElementById('login_container');
+        
+        signUpButton.addEventListener('click', () => {
+            loginContainer.classList.add("right-panel-active");
+        });
+        
+        signInButton.addEventListener('click', () => {
+            loginContainer.classList.remove("right-panel-active");
+        });
+        </script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/dya.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
